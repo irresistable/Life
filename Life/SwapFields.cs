@@ -26,21 +26,5 @@ namespace Life
                 }
             }
         }
-
-        //public bool compareArray(Array[,] array1, Array[,] array2)
-        //{
-        //    for (int y_pos = 0; y_pos < array1.GetLength(1); y_pos++)
-        //    {
-        //        for (int x_pos = 0; x_pos < array1.GetLength(0); x_pos++)
-        //        {
-        //            if (array1[x_pos, y_pos] != array2[x_pos, y_pos])
-        //            {
-        //                return false;
-        //            }
-        //        }
-        //    }
-        //    return true;
-        //}
     }
-
 }
