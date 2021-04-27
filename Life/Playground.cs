@@ -49,7 +49,8 @@ namespace Life
 
                 else
                 {
-                    Console.SetCursorPosition(0, 0);
+                    Console.Clear();
+                    //Console.SetCursorPosition(0, 0);
                     FieldToConsole(ref gamefield); //вывели первое поле на экран
                   
                     swapFields.Replace(ref gamefield, ref gamefield_new); // второе поле скопировали в первое и потом затерли второе
